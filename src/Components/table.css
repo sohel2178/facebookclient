@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  word-wrap: break-word;
+}
+.table p{
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* word-wrap: break-word; */
+  /* margin-left: 20; */
+  padding: 8px;
+  }
+  .table h4{
+    margin: auto;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color:whitesmoke
+  }
+
+.midbottom{
+  height: 73vh;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  overflow-y: scroll;
+  text-overflow: ellipsis;
+  
+}
+
+.tablemid{
+  height: 95vh;
+  width: 100%;
+  background-color: white;
+  
+}
+
+.table button:hover{
+  background-color: orange;
+  border-color: aqua;
+}
